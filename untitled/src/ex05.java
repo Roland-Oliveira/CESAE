@@ -59,7 +59,7 @@ public class ex05 {
 
         do{
             // System.out.println("indique uma opção de menu : 1-Para descobrir se o numero é primo, 2-para descobrir se é positivo ou negativo ,4-paradesligar o programa");
-            menu = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma das opções: \n1 - Descobrir se um numero é primo \n 2 - descobrir se um numero é positivo ou negativo \n 3 - descobrir se o numero é par ou impar \n 4 - sair"));
+            menu = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma das opções: \n1 - Descobrir se um num \n 2 - Descobrir o número de vendas e o valor total \n 3 - descobrir se o numero é par ou impar \n 4 - sair"));
             switch (menu){
                 case 1:
                     int num;
