@@ -17,6 +17,8 @@ public class ex06 {
             tabela[i][0]=linha[0];
             tabela[i][1]=linha[1];
             i++;
+
+            
         }
 
         int maiorIdade = 0,lineMaiorIdade=0;
